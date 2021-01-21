@@ -1,5 +1,9 @@
-#include <header.hpp>
+// Copyright 2021 Kochurin Nikita kochurin.nikita@gmail.com
 
-int main() {
+#include "hash_gen.hpp"
 
+int main(int argc, char *argv[]) {
+  hash_gen hg;
+  hg.find_hash(argc, argv);
+    return 0;
 }

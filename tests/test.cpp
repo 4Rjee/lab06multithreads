@@ -1,7 +1,7 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2021 Kochurin Nikita kochurin.nikita@gmail.com
 
 #include <gtest/gtest.h>
 
-TEST(Example, EmptyTest) {
+TEST(Example, empty_test) {
     EXPECT_TRUE(true);
 }
